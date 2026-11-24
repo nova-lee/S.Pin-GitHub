@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="S.Pin Technology가 소개하는 GitHub Copilot의 핵심 기능과 에이전트 경험을 살펴보세요.">
+  <meta name="description" content="다양한 AI 모델을 하나의 개발 환경에서 활용하는 GitHub Copilot의 기능과 데모를 만나보세요.">
   <meta name="theme-color" content="#11151c">
   <title>S.Pin - GitHub Copilot</title>
   <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/demo-tabs.js" defer></script>
 </head>
 <body>
   <!-- REFERENCE: GitHub Copilot product pages, for editorial hierarchy and product-led navigation. -->
@@ -25,6 +26,7 @@
         </span>
       </a>
       <nav class="header-nav" aria-label="주요 메뉴">
+        <a href="#models">AI 모델</a>
         <a href="#features">핵심 기능</a>
         <a href="#agents">에이전트</a>
         <a href="#demo">데모 보기 <span aria-hidden="true">↗</span></a>
@@ -38,15 +40,15 @@
         <div class="hero-copy">
           <p class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span> S.PIN TECHNOLOGY PRESENTS</p>
           <h1 id="hero-title">S.Pin -<br>GitHub Copilot</h1>
-          <p class="hero-lead">아이디어에서 코드까지, AI와 함께 더 나은 개발 경험을 만듭니다.</p>
-          <p class="hero-sub">S.Pin Technology와 함께하는 AI 개발 혁신.<br>GitHub Copilot의 핵심 기능부터 새로운 에이전트 경험까지 만나보세요.</p>
+          <p class="hero-lead">다양한 최신 AI 모델을 하나의 개발 환경에서.</p>
+          <p class="hero-sub">코드 작성부터 리뷰, 자율 작업까지. GitHub Copilot으로 작업에 맞는 AI와 함께 개발하세요.</p>
           <div class="hero-actions">
             <a class="button button-light" href="#demo">실제 구동 화면 보기 <span aria-hidden="true">↗</span></a>
-            <a class="text-link light-link" href="#features">핵심 기능 살펴보기 <span aria-hidden="true">↓</span></a>
+            <a class="text-link light-link" href="#models">AI 모델 살펴보기 <span aria-hidden="true">↓</span></a>
           </div>
         </div>
         <div class="hero-visual" aria-hidden="true">
-          <div class="visual-caption"><span>YOUR AI PAIR PROGRAMMER</span><span>01 / 03</span></div>
+          <div class="visual-caption"><span>YOUR AI PAIR PROGRAMMER</span><span>MULTI-MODEL AI</span></div>
           <div class="copilot-emblem">
             <img src="assets/icons/github-copilot.svg" alt="" width="24" height="24">
           </div>
@@ -56,10 +58,30 @@
       <div class="container hero-bottom"><span>AI-POWERED DEVELOPMENT</span><span>개발의 모든 단계에 함께합니다 <span aria-hidden="true">↓</span></span></div>
     </section>
 
+    <section class="section models" id="models" aria-labelledby="models-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="section-number">01</span> YOUR CHOICE OF AI</p><h2 id="models-title">하나의 Copilot,<br>다양한 AI 모델</h2></div>
+          <p class="section-intro">한 모델에 갇히지 않고 작업에 맞는 AI를 선택하세요. 빠른 응답부터 깊이 있는 추론과 코드 작업까지, 익숙한 개발 흐름에서 여러 모델을 활용할 수 있습니다.</p>
+        </div>
+        <div class="model-summary">
+          <div class="model-count"><strong>34<span>개</span></strong><p>모델·모드 지원 목록</p></div>
+          <div><p class="model-summary-label">MORE CHOICE, ONE WORKFLOW</p><h3>원하는 모델로,<br>하던 자리에서.</h3><p>OpenAI, Anthropic, Google 등 여러 제공사의 모델을 Copilot에서 만나보세요.</p></div>
+        </div>
+        <div class="model-grid" aria-label="대표 AI 모델 예시">
+          <article class="model-card"><p>OPENAI</p><h3>GPT</h3><span>GPT-6.2 Sol · GPT-5.3-Codex</span></article>
+          <article class="model-card"><p>ANTHROPIC</p><h3>Claude</h3><span>Claude Opus 5.5 · Sonnet 5.5</span></article>
+          <article class="model-card"><p>GOOGLE</p><h3>Gemini</h3><span>Gemini 4 Neon · Gemini 4 Carbon</span></article>
+        </div>
+        <p class="model-more">이외에도 Microsoft의 MAI Code, Moonshot AI의 Kimi, xAI의 Grok 등 다양한 모델이 있습니다.</p>
+        <p class="availability">2026년 11월 24일 GitHub 공식 지원 목록 기준(모드 포함). 모델은 변경될 수 있으며 요금제, 사용 환경, 조직 정책 및 프리미엄 요청 조건에 따라 사용 가능 여부가 다릅니다. <a href="https://docs.github.com/en/copilot/reference/ai-models/supported-models" target="_blank" rel="noopener noreferrer">최신 지원 모델 확인 ↗</a></p>
+      </div>
+    </section>
+
     <section class="section features" id="features" aria-labelledby="features-title">
       <div class="container">
         <div class="section-heading">
-          <div><p class="eyebrow"><span class="section-number">01</span> THE ESSENTIALS</p><h2 id="features-title">개발의 흐름을<br>더 자연스럽게</h2></div>
+          <div><p class="eyebrow"><span class="section-number">02</span> THE ESSENTIALS</p><h2 id="features-title">개발의 흐름을<br>더 자연스럽게</h2></div>
           <p class="section-intro">코드를 작성하는 순간부터 리뷰와 협업까지.<br>개발자가 중요한 문제에 집중할 수 있도록 돕습니다.</p>
         </div>
         <div class="feature-grid">
@@ -77,7 +99,7 @@
     <section class="section agents" id="agents" aria-labelledby="agents-title">
       <div class="container">
         <div class="section-heading agent-heading">
-          <div><p class="eyebrow"><span class="section-number">02</span> BEYOND COMPLETION</p><h2 id="agents-title">최신 에이전트 기능</h2></div>
+          <div><p class="eyebrow"><span class="section-number">03</span> BEYOND COMPLETION</p><h2 id="agents-title">최신 에이전트 기능</h2></div>
           <p class="section-intro">하나의 제안을 넘어, 도구와 맥락을 연결하고<br>복잡한 작업을 함께 수행합니다.</p>
         </div>
         <div class="agent-list">
@@ -95,14 +117,42 @@
     <section class="section demo" id="demo" aria-labelledby="demo-title">
       <div class="container">
         <div class="section-heading demo-heading">
-          <div><p class="eyebrow"><span class="section-number">03</span> SEE IT IN ACTION</p><h2 id="demo-title">실제 Copilot 구동 화면</h2></div>
-          <div class="demo-intro"><p class="section-intro">Copilot 앱, CLI, VS Code의 활용 시나리오를 직접 살펴보세요.</p><a class="button button-dark" href="https://purple-ground-0a73d1300-easy.eastasia.8.azurestaticapps.net/" target="_blank" rel="noopener noreferrer">새 탭에서 열기 <span aria-hidden="true">↗</span></a></div>
+          <div><p class="eyebrow"><span class="section-number">04</span> SEE IT IN ACTION</p><h2 id="demo-title">Copilot을<br>직접 만나보세요</h2></div>
+          <div class="demo-intro"><p class="section-intro">앱, CLI, VS Code에서 Copilot이 어떻게 동작하는지 영상으로 살펴보고 직접 체험해 보세요.</p><a class="button button-dark" href="https://purple-ground-0a73d1300-easy.eastasia.8.azurestaticapps.net/" target="_blank" rel="noopener noreferrer">사용 체험 <span aria-hidden="true">↗</span></a></div>
         </div>
         <div class="demo-window">
-          <div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>GITHUB COPILOT EXPERIENCE</span><a href="https://purple-ground-0a73d1300-easy.eastasia.8.azurestaticapps.net/" target="_blank" rel="noopener noreferrer">새 탭 ↗</a></div>
-          <iframe title="GitHub Copilot 활용 시나리오 데모" src="https://purple-ground-0a73d1300-easy.eastasia.8.azurestaticapps.net/" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>GITHUB COPILOT IN ACTION</span></div>
+          <div class="demo-tabs" aria-label="데모 영상 선택">
+            <button type="button" id="tab-app" aria-controls="demo-app">데스크톱 앱</button>
+            <button type="button" id="tab-cli" aria-controls="demo-cli">Copilot CLI</button>
+            <button type="button" id="tab-vscode" aria-controls="demo-vscode">VS Code</button>
+          </div>
+          <div class="demo-panel" id="demo-app">
+            <h3>GitHub Copilot 데스크톱 앱</h3>
+            <video controls playsinline preload="none" aria-label="GitHub Copilot 데스크톱 앱 데모 영상">
+              <source src="https://videos.ctfassets.net/8aevphvgewt8/3ug1mT6N3O8oxhWASA8ssG/530db8a4a1f3cea899d7e00f035f1ad4/copilot-app-desktop-windows-dark.mp4" type="video/mp4">
+              브라우저에서 영상을 재생할 수 없습니다.
+            </video>
+            <a href="https://videos.ctfassets.net/8aevphvgewt8/3ug1mT6N3O8oxhWASA8ssG/530db8a4a1f3cea899d7e00f035f1ad4/copilot-app-desktop-windows-dark.mp4" target="_blank" rel="noopener noreferrer">영상 새 탭에서 열기 ↗</a>
+          </div>
+          <div class="demo-panel" id="demo-cli">
+            <h3>GitHub Copilot CLI</h3>
+            <video controls playsinline preload="none" aria-label="GitHub Copilot CLI 데모 영상">
+              <source src="https://videos.ctfassets.net/8aevphvgewt8/3Td0m0HNAX7lxoxmB1r6Ow/74ea1b35140fd3b02c306e3197946790/copilot-cli-desktop-windows-dark.mp4" type="video/mp4">
+              브라우저에서 영상을 재생할 수 없습니다.
+            </video>
+            <a href="https://videos.ctfassets.net/8aevphvgewt8/3Td0m0HNAX7lxoxmB1r6Ow/74ea1b35140fd3b02c306e3197946790/copilot-cli-desktop-windows-dark.mp4" target="_blank" rel="noopener noreferrer">영상 새 탭에서 열기 ↗</a>
+          </div>
+          <div class="demo-panel" id="demo-vscode">
+            <h3>GitHub Copilot VS Code</h3>
+            <video controls playsinline preload="none" aria-label="GitHub Copilot VS Code 데모 영상">
+              <source src="https://videos.ctfassets.net/8aevphvgewt8/2J6C3wOFzxG17KW0kXjwSH/da62dfe681e514bbdf89f30c20a1835a/vscode-desktop-windows-dark.mp4" type="video/mp4">
+              브라우저에서 영상을 재생할 수 없습니다.
+            </video>
+            <a href="https://videos.ctfassets.net/8aevphvgewt8/2J6C3wOFzxG17KW0kXjwSH/da62dfe681e514bbdf89f30c20a1835a/vscode-desktop-windows-dark.mp4" target="_blank" rel="noopener noreferrer">영상 새 탭에서 열기 ↗</a>
+          </div>
         </div>
-        <p class="demo-notice">데모 서버의 보안 설정으로 이 화면에 표시되지 않을 수 있습니다. 표시되지 않으면 <a href="https://purple-ground-0a73d1300-easy.eastasia.8.azurestaticapps.net/" target="_blank" rel="noopener noreferrer">새 탭에서 데모를 열어주세요 ↗</a>.</p>
+        <p class="demo-notice">영상이 재생되지 않으면 각 영상 아래의 새 탭 링크를 이용해 주세요. 사용 체험은 별도 사이트에서 열립니다.</p>
       </div>
     </section>
   </main>
