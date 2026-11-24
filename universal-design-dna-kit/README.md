@@ -1,6 +1,6 @@
 # Universal Design DNA
 
-GitHub Pages의 [Copilot 소개 페이지](https://nova-lee.github.io/universal-design-dna-kit/)와 [디자인 키트 소개](https://nova-lee.github.io/universal-design-dna-kit/design-kit/)를 확인할 수 있습니다.
+GitHub Pages의 [Copilot 소개 페이지](https://nova-lee.github.io/S.Pin-GitHub/)와 [디자인 키트 소개](https://nova-lee.github.io/S.Pin-GitHub/design-kit/)를 확인할 수 있습니다.
 
 ## Claude 및 GitHub Copilot 디자인 키트
 
@@ -55,7 +55,7 @@ GitHub Pages의 [Copilot 소개 페이지](https://nova-lee.github.io/universal-
 ### D. GitHub Copilot 및 GitHub Pages
 
 - Copilot 저장소 지침은 `.github/copilot-instructions.md`에서 자동으로 읽힙니다. 상세 디자인 기준은 `CLAUDE.md`, `DESIGN.md`, 스킬의 관련 레퍼런스를 따릅니다.
-- 저장소 설정의 **Pages > Build and deployment > Source**를 **GitHub Actions**로 설정하면 `main` 브랜치의 변경이 [nova-lee.github.io/universal-design-dna-kit](https://nova-lee.github.io/universal-design-dna-kit/)에 배포됩니다.
+- 저장소 설정의 **Pages > Build and deployment > Source**를 **GitHub Actions**로 설정하면 `main` 브랜치의 변경이 [nova-lee.github.io/S.Pin-GitHub](https://nova-lee.github.io/S.Pin-GitHub/)에 배포됩니다.
 
 ## 프로젝트에 맞추기
 
