@@ -74,9 +74,9 @@ h1 span { white-space: nowrap; }
 .hero-visual::before, .hero-visual::after { position: absolute; content: ""; pointer-events: none; border: 1px solid #303b4b; inset: var(--space-12); }
 .hero-visual::after { inset: var(--space-20); }
 .visual-caption, .visual-bottom { position: relative; z-index: 1; display: flex; justify-content: space-between; gap: var(--space-4); color: #c1ccda; font-size: .62rem; font-weight: 600; letter-spacing: .1em; }
-.copilot-stage { z-index: 1; align-self: center; perspective: 700px; }
-.copilot-emblem { display: grid; place-items: center; width: clamp(10rem, 18vw, 15rem); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 30% 20%, #fff, #e1e9f4 56%, #a1afc5); box-shadow: inset 0 2px 6px #fff, inset 0 -12px 18px #9caac0, 0 10px 0 #697b94, 0 18px 30px #080d16a6; transform-style: preserve-3d; transform: rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)); transition: transform 180ms ease-out; }
-.copilot-face { position: relative; display: block; width: 78%; transform-style: preserve-3d; transform: translateZ(24px); }
+.copilot-stage { z-index: 1; align-self: center; width: min(100%, clamp(14rem, 24vw, 21rem)); perspective: 700px; }
+.copilot-emblem { display: grid; place-items: center; width: 100%; aspect-ratio: 1; transform-style: preserve-3d; transform: rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)); transition: transform 180ms ease-out; }
+.copilot-face { position: relative; display: block; width: 100%; transform-style: preserve-3d; transform: translateZ(24px); }
 .copilot-face::before { position: absolute; content: ""; inset: 0; background: #647083; mask: url("icons/icons8-github-copilot-100.png") center / contain no-repeat; -webkit-mask: url("icons/icons8-github-copilot-100.png") center / contain no-repeat; transform: translateZ(-10px); }
 .copilot-face img { width: 100%; height: auto; transform: translateZ(2px); filter: drop-shadow(0 3px 1px #8792a2); }
 .hero-bottom { display: flex; justify-content: space-between; gap: var(--space-4); padding-block: var(--space-5); border-top: 1px solid #38404c; color: #c1ccda; font-size: .72rem; font-weight: 600; letter-spacing: .05em; }
