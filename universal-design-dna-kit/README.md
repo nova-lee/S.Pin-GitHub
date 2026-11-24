@@ -1,6 +1,6 @@
-# github_intro — Universal Design DNA
+# Universal Design DNA
 
-Universal Design DNA design kit, published at [nova-lee.github.io/github_intro](https://nova-lee.github.io/github_intro/).
+GitHub Pages 주소: [nova-lee.github.io/universal-design-dna-kit](https://nova-lee.github.io/universal-design-dna-kit/).
 
 ## Claude 및 GitHub Copilot 디자인 키트
 
@@ -11,22 +11,21 @@ Universal Design DNA design kit, published at [nova-lee.github.io/github_intro](
 ## 들어 있는 것
 
 ```
-universal-design-dna-kit/
-├── README.md                         이 안내
-├── CLAUDE.md                         디자인 작업 지침
+저장소 루트/
 ├── .github/
 │   ├── copilot-instructions.md       GitHub Copilot 저장소 지침
 │   └── workflows/pages.yml           GitHub Pages 자동 배포
-├── index.md                          GitHub Pages 홈
-├── _config.yml                       GitHub Pages 설정
-├── DESIGN.md                         디자인 DNA + 토큰을 한 파일로 — 스킬을 못 쓰는 곳에 첨부용
-├── universal-design-intelligence/    스킬 폴더(전체 기준)
-│   ├── SKILL.md
-│   ├── references/                   DESIGN_DNA · TOKENS · COMPONENTS · WEB_DESIGN · MOTION_3D
-│   │                                 3D_BASELINES · THREEUI_TECHNIQUES · INTERNAL_PAGES
-│   │                                 APP_DESIGN · PPTX_DESIGN · ASSET_GUIDELINES · ACCESSIBILITY · QUALITY_GATE
-│   └── assets/                       tokens.css · tokens.json
-└── universal-design-intelligence.zip 스킬 업로드용(Claude 앱·웹)
+└── universal-design-dna-kit/         키트 및 Pages 소스
+    ├── README.md                     이 안내
+    ├── CLAUDE.md                     디자인 작업 지침
+    ├── index.md                      GitHub Pages 홈
+    ├── _config.yml                   GitHub Pages 설정
+    ├── DESIGN.md                     디자인 DNA + 토큰
+    ├── universal-design-intelligence/
+    │   ├── SKILL.md
+    │   ├── references/               디자인·접근성·품질 기준
+    │   └── assets/                   tokens.css · tokens.json
+    └── universal-design-intelligence.zip 스킬 업로드용(Claude 앱·웹)
 ```
 
 ## 쓰는 법 — 쓰는 환경에 맞는 것 하나
@@ -44,7 +43,7 @@ universal-design-dna-kit/
    - macOS·Linux: `~/.claude/skills/universal-design-intelligence/`
    - Windows: `%USERPROFILE%\.claude\skills\universal-design-intelligence\`
    - 한 프로젝트에서만 쓰려면 그 프로젝트의 `.claude/skills/universal-design-intelligence/`
-2. `CLAUDE.md`의 `<!-- UDI:BEGIN -->`~`<!-- UDI:END -->` 블록을 `~/.claude/CLAUDE.md`(모든 프로젝트) 또는 프로젝트 루트의 `CLAUDE.md` **끝에 붙입니다**. 기존 내용은 지우지 않습니다.
+2. `CLAUDE.md`의 지침을 `~/.claude/CLAUDE.md`(모든 프로젝트) 또는 프로젝트 루트의 `CLAUDE.md` **끝에 붙입니다**. 기존 내용은 지우지 않습니다.
 3. 새 세션을 열고 확인합니다: "랜딩 페이지를 만들 때 어떤 디자인 기준을 쓰지?"
 
 ### C. 다른 도구
@@ -54,7 +53,7 @@ universal-design-dna-kit/
 ### D. GitHub Copilot 및 GitHub Pages
 
 - Copilot 저장소 지침은 `.github/copilot-instructions.md`에서 자동으로 읽힙니다. 상세 디자인 기준은 `CLAUDE.md`, `DESIGN.md`, 스킬의 관련 레퍼런스를 따릅니다.
-- `main` 브랜치에 변경을 올리면 GitHub Actions가 Pages 사이트를 빌드하고 배포합니다: [nova-lee.github.io/github_intro](https://nova-lee.github.io/github_intro/).
+- 저장소 설정의 **Pages > Build and deployment > Source**를 **GitHub Actions**로 설정하면 `main` 브랜치의 변경이 [nova-lee.github.io/universal-design-dna-kit](https://nova-lee.github.io/universal-design-dna-kit/)에 배포됩니다.
 
 ## 프로젝트에 맞추기
 
