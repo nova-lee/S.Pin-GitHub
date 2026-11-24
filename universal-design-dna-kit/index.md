@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Universal Design DNA
+permalink: /design-kit/
 ---
 
 # Universal Design DNA

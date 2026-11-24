@@ -1,6 +1,6 @@
 # Universal Design DNA
 
-GitHub Pages 주소: [nova-lee.github.io/universal-design-dna-kit](https://nova-lee.github.io/universal-design-dna-kit/).
+GitHub Pages의 [Copilot 소개 페이지](https://nova-lee.github.io/universal-design-dna-kit/)와 [디자인 키트 소개](https://nova-lee.github.io/universal-design-dna-kit/design-kit/)를 확인할 수 있습니다.
 
 ## Claude 및 GitHub Copilot 디자인 키트
 
@@ -18,7 +18,9 @@ GitHub Pages 주소: [nova-lee.github.io/universal-design-dna-kit](https://nova-
 └── universal-design-dna-kit/         키트 및 Pages 소스
     ├── README.md                     이 안내
     ├── CLAUDE.md                     디자인 작업 지침
-    ├── index.md                      GitHub Pages 홈
+    ├── index.html                    GitHub Copilot 소개 페이지
+    ├── index.md                      기존 디자인 키트 소개 (/design-kit/)
+    ├── assets/                       소개 페이지 스타일과 아이콘
     ├── _config.yml                   GitHub Pages 설정
     ├── DESIGN.md                     디자인 DNA + 토큰
     ├── universal-design-intelligence/
